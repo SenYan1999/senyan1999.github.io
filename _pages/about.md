@@ -25,3 +25,6 @@ Skills
 ======
 * Programming: Python, Java, C++, R
 * Language: Chinese(native), English(fluent)
+
+<span style="color:red">*News*</span>
+<span style="color:red">One paper accepted by IJCAI2021 (IF=5.47)</span>
