@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Sen Yan now is a PhD student in the University of Colorado Boulder. Before joining CU Boulder, he recieved his bachelor degree in Shanghai University of Finance and Economics. His research interests are about Information System, Deep Learning and Natural Language Processing.
+Sen Yan now is a PhD student in the University of Colorado Boulder. Before joining CU Boulder, he recieved his bachelor degree in Shanghai University of Finance and Economics. His research interests are mainly about Deep Learning and Natural Language Processing.
 
 Education
 ======
-* B.S. in Finance Management, Shanghai University of Finance and Economics, 2021
 * Ph.D in Information System, University of Colorado Boulder, 2026 (expected)
+* B.S. in Finance Management, Shanghai University of Finance and Economics, 2021
 
 Publications
 ======
