@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-06-01
 inline: true
 ---
 
-A simple inline announcement.
+Our paper ***Toward an Information Systems Ontology*** has been accepted by [DESRIST2022](https://www.usf.edu/business/desrist/index.aspx)
+
