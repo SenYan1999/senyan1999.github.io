@@ -19,9 +19,9 @@ social: true  # includes social icons at the bottom of the page
 
 ### about me
 
-I'm currently a Ph.D student of Information Systems in the Division of Organizational Leadership and Information Analytics, [Leeds School of Business](https://www.colorado.edu/business/), [University of Colorado Boulder](https://www.colorado.edu/). Prior joining my Ph.D program, I received my Bachelor from [Shanghai University of Finance and Economics](https://english.sufe.edu.cn/). 
+I'm currently a Ph.D candidate of Information Systems in the Division of Organizational Leadership and Information Analytics, [Leeds School of Business](https://www.colorado.edu/business/), [University of Colorado Boulder](https://www.colorado.edu/). Prior joining my Ph.D program, I received my Bachelor from [Shanghai University of Finance and Economics](https://english.sufe.edu.cn/). 
 
-My research interests lie across many topics including the AI Human Cooperation, Natural Language Processing, and Multimodal Learning. Feel free to contact me via my email: <sen.yan@colorado.edu>.
+My research interests lie across many topics including the Cybersecurity, Psychometric Methodology Development, Natural Language Processing, and Multimodal Learning. Feel free to contact me via my email: <sen.yan@colorado.edu>.
 
 ### education
 
