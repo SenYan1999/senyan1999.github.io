@@ -2,10 +2,37 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@article{qingshilu,
+abbr = {NBER WP},
+title = {Mining Chinese Historical Sources At Scale: A Machine Learning-Approach to Qing State Capacity},
+abstract = {Primary historical sources are often by-passed for secondary sources due to high human costs of accessing and extracting primary information–especially in lower-resource settings. We propose a supervised machine-learning approach to the natural language processing of Chinese historical data. An application to identifying different forms of social unrest in the Veritable Records of the Qing Dynasty shows that approach cuts dramatically down the cost of using primary source data at the same time when it is free from human bias, reproducible, and flexible enough to address particular questions. External evidence on triggers of unrest also suggests that the computer-based approach is no less successful in identifying social unrest than human researchers are.},
+author = {Keller, Wolfgang and Shiue, Carol and Yan, Sen},
+pdf = {qingshilu.pdf},
+preview = {qingshilu.png},
+year = {2024},
+additional_info = {[**Demo Website Link**](http://5.78.89.73:8501/)},
+  code = {https://github.com/SenYan1999/qingshilu-riot-ml},
+}
 
-<<<<<<< HEAD
+@inproceedings{icis2024,
+  abbr      = {ICIS 2024},
+  title     = {Integrating LLMs and Psychometrics: Global Construct Validity},
+  abstract = {The psychometric approach in IS offers a foundational framework for a broad spectrum of research endeavors, which typically rely on construct validation to confirm that a series of indicators accurately measures the intended construct. However, a longstanding issue with construct validity, unaddressed since its introduction by Cronbach and Meehl in 1955, is that it is evaluated using study-specific response data without comparison to constructs outside the study. This oversight (or, rather, incapability) has significant implications. We introduce a large language model combined with principal components analysis (PCA) and develop the Validity Lodestar application. This approach lays the groundwork for developing more accurate and reliable theoretical models, marking a significant leap forward in the IS discipline’s methodological capabilities, making IS the first psychometric discipline with the capability to properly evaluate construct validity.},
+  author    = {Larsen, Kai and Yan, Sen and Lukyanenko Roman},
+  booktitle = {Proceedings of the International Conference on Information Systems 2024},
+  year      = {2024},
+  month     = {12},
+  pdf       = {icis2024.pdf},
+  location = {Bangkok, Thailand},
+  preview={icis_global_construct.png},
+  selected  = {true},
+}
+
+
 @inproceedings{ijcai2021-319,
+  abbr      = {IJCAI 2021},
   title     = {Isotonic Data Augmentation for Knowledge Distillation},
+  abstract={Knowledge distillation uses both real hard labels and soft labels predicted by teacher models as supervision. Intuitively, we expect the soft labels and hard labels to be concordant w.r.t. their orders of probabilities. However, we found critical order violations between hard labels and soft labels in augmented samples. For example, for an augmented sample x=0.7∗panda+0.3∗cat, we expect the order of meaningful soft labels to be Psoft(panda|x)>Psoft(cat|x)>Psoft(other|x). But real soft labels usually violate the order, e.g. Psoft(tiger|x)>Psoft(panda|x)>Psoft(cat|x). We attribute this to the unsatisfactory generalization ability of the teacher, which leads to the prediction error of augmented samples. Empirically, we found the violations are common and injure the knowledge transfer. In this paper, we introduce order restrictions to data augmentation for knowledge distillation, which is denoted as isotonic data augmentation (IDA). We use isotonic regression (IR) -- a classic technique from statistics -- to eliminate the order violations. We show that IDA can be modeled as a tree-structured IR problem. We thereby adapt the classical IRT-BIN algorithm for optimal solutions with O(clogc) time complexity, where c is the number of labels. In order to further reduce the time complexity, we also propose a GPU-friendly approximation with linear time complexity. We have verified on variant datasets and data augmentation techniques that our proposed IDA algorithms effectively increases the accuracy of knowledge distillation by eliminating the rank violations.},
   author    = {Cui, Wanyun and Yan, Sen},
   booktitle = {Proceedings of the 30th International Joint Conference on
                Artificial Intelligence, {IJCAI-2021}},
@@ -15,11 +42,14 @@
   year      = {2021},
   month     = {8},
   note      = {Main Track},
+  pdf       = {isotonic.pdf},
+  code = {https://github.com/SenYan1999/IsotonicDataAugmentation},
+  preview = {kd-mixup.png},
   selected  = {true},
-  pdf       = {isotonic.pdf}
 }
 
 @inproceedings{10.1007/978-3-031-06516-3_5,
+abbr      = {DESRIST 2022},
 author = {Mueller, Roland M. and Huettemann, Sebastian and Larsen, Kai R. and Yan, Sen and Handler, Abram},
 title = {Toward an Information Systems Ontology},
 year = {2022},
@@ -35,128 +65,21 @@ pages = {55–67},
 numpages = {13},
 keywords = {Ontology, Information systems research, Meta-analysis, Information systems, Taxonomy, Knowledge synthesis},
 location = {St. Petersburg, FL, USA},
-pdf      = {toward.pdf}
+pdf      = {toward.pdf},
+preview = {toward_desrist2022.png},
 }
 
 @inproceedings{wits2020,
+  abbr      = {DESRIST 2020},
   title     = {UnitedANT: A Multimodal Deep Learning Framework for Predicting Financial Risk from Acoustic, Numeric, and Textual Cues in Earnings Conference Calls},
+  abstract = {Earnings conference calls have been recently recognized as significant information events to the market due to its less constrained fashion and direct interaction between managers and analysts. However, it is a non-trivial task to fully exploit the information contained in these conference calls due to its multimodality. To tackle this problem, we develop a general multimodal deep learning framework called UnitedANT (A, N, T stands for Acoustic, Numeric, and Textual information respectively) which could simultaneously leverage acoustic, numeric, and textual information of conference calls for predicting corporate financial risk. Empirical results on a real-world dataset of S&P 500 companies demonstrate the superiority of our proposed method over competitive baselines from the extant literature. Our ablation study presents evidence that all three modalities are useful for financial risk prediction, and the exclusion of any one or two of them will lead to a drop in model performance.},
   author    = {Yan, Sen and Yang, Bao and Hui, Fang},
   booktitle = {Proceedings of the 30th WORKSHOP ON INFORMATION TECHNOLOGIES AND SYSTEMS
                , {WITS-2020}},
   publisher = {WORKSHOP ON INFORMATION TECHNOLOGIES AND SYSTEMS},
   year      = {2020},
   month     = {12},
-  pdf       = {wits20.pdf}
+  pdf       = {wits20.pdf},
+  code = {https://github.com/SenYan1999/UnitedANT},
+  preview = {unitedant.png}
 }
-=======
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
->>>>>>> upstream/master
