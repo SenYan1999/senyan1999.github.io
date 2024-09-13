@@ -23,6 +23,8 @@ I'm currently a Ph.D candidate of Information Systems in the Division of Organiz
 
 My research interests lie across many topics including the Cybersecurity, Psychometric Methodology Development, Natural Language Processing, and Multimodal Learning. Feel free to contact me via my email: <sen.yan@colorado.edu>.
 
+*“If I take death into my life, acknowledge it, and face it squarely, I will free myself from the anxiety of death and the pettiness of life - and only then will I be free to become myself.”* -- **Martin Heidegger**
+
 ### education
 
 - **University of Colorado Boulder**, Boulder, CO, USA.
